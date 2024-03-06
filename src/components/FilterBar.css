@@ -1,0 +1,49 @@
+.filterBar { 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background-color: #efd3bd;
+  border-bottom: 1px solid #ddd;
+}
+
+.dateRange {
+  display: flex;
+  width: 15%;
+  align-items: center;
+  justify-content: space-evenly;
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+  padding: 5px;
+  background-color: rgb(239, 201, 154);
+}
+
+.peopleInput {
+  margin: 0 50px;
+}
+
+.amenities {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.amenityInput {
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.button_filter button{
+  width: 80px;
+  height: 30px;
+  border: 1px solid #e7c16f;
+  border-radius: 10px;
+  background-color: #e7b16f;
+  color: white;
+  font-weight: bold;
+  opacity: 60%;
+  margin: 0 50px;
+}
+
+.button_filter button:hover {
+  cursor: pointer;
+}

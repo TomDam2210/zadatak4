@@ -1,0 +1,9 @@
+.all {
+  display:flex;
+  flex-direction: column;
+}
+
+.accommodationList {
+    display: flex;
+    justify-content: space-around;
+  }
